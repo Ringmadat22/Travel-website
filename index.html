@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+
+    <!--
+        CSS LINK
+    -->
+
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+
+<body>
+
+    <!--
+        NAVBAR
+    -->
+
+    <nav class="navbar">
+
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img class="menu-btn" src="Assets/img/menu-btn.png" alt="">
+    </nav>
+ 
+    <!--
+        HEADER
+    -->
+
+    <header>
+
+        <div class="header-content">
+
+            <h2>Explore The colorful World</h2>
+
+            <div class="line"></div>
+
+            <h1>A WONDERFULL GIFT</h1>
+
+            <a href="" class="ctn">Learn More</a>
+        </div>
+
+    </header>
+
+    <section class="Events reveal">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line" style="margin-bottom: 100px;"></div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="Assets/img/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem amet iste sint! Itaque voluptas doloribus commodi velit corrupti delectus perferendis ipsam excepturi ducimus explicabo illo illum ab, nemo repudiandae nesciunt!</p>
+                <a href="" class="ctn" style="margin-left: 260px;">Learn More</a>
+            </div>
+            <div class="column">
+                <img src="Assets/img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem amet iste sint! Itaque voluptas doloribus commodi velit corrupti delectus perferendis ipsam excepturi ducimus explicabo illo illum ab, nemo repudiandae nesciunt!</p>
+                <a href="" class="ctn" style="margin-left: 260px;">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore reveal">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium deleniti, expedita enim tempora doloremque soluta cum dolorem velit excepturi iusto! A minus at quae iusto consequuntur itaque eligendi amet repellat!</p>
+            <a href="" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours reveal">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UP COMING TOURS 7 DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus libero voluptatum, deleniti aliquid impedit eum debitis magnam pariatur dolores excepturi quasi, mollitia dolor tenetur expedita quos quam omnis explicabo!</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="Assets/img/img3.png" alt="">
+                    <img src="Assets/img/img4.png" alt="">
+                    <img src="Assets/img/img5.png" alt="">
+                    <img src="Assets/img/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer reveal">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis debitis provident</p>
+        <p>2023 Copyrights &copy; Ringo.Codes </p>
+    </section>
+
+    <script src="Assets/index.js">
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',() => {
+            navlinks.classList.toggle('mobile-menu')
+        });
+    </script>
+
+</body>
+</html>
