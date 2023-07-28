@@ -333,3 +333,6 @@ li:hover {
     cursor: pointer;
     transition: all ease 700ms;
 }
+
+.footer a {
+    text-decoration:none;
