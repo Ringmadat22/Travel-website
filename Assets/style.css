@@ -337,5 +337,5 @@ li:hover {
 .footer a {
     text-decoration:none;
     color:red;
-    transition:all ease;
+    transition:all ease 0.6s;
 }
